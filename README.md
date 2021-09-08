@@ -1,7 +1,8 @@
 # Do_T_Group10_Bootcamp
 
 ## Projet description
-
+A group of 4 or 5 student are responsible for designing a professional agency site (mobile, tablet or desktop) with an original logo & tagline. 
+The group will also design and animate a video to promote the new startup advertising agency.
 
 ## Team member
 

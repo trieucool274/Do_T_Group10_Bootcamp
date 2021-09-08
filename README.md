@@ -26,7 +26,7 @@ N/A
 
 [Trieu Do Hoang](https://github.com/trieucool274)
 [Nguyen Gia Linh](https://github.com/Ery205275)
-[Jacob Smith](https://github.com/dizzyhippie
+[Jacob Smith](https://github.com/dizzyhippie)
 [Elif Sarikaya](https://github.com/Sarikayaelif)
 [Burak Turkmen](https://github.com/brktrkmn)
 

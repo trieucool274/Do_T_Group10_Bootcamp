@@ -1,0 +1,69 @@
+#teamMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   // background-color:#f6b979 ;
+}
+#teamBody1{
+    padding-bottom: 20px;
+    div{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: beige;
+            padding: 5px;
+            background-color: #373234;
+            display: inline-block;
+            margin-top: 10px;
+            
+        }  
+    }
+}
+#teamBody2{
+    padding-bottom: 20px;
+    background-color: white;
+    width: 100%;
+    h2{
+        color: #373234;
+    }
+}
+#teamBody3{
+    padding-bottom: 20px;
+   background-color: #373234;
+   width: 100%;
+}
+.teamMember{
+    padding-left: 10px;
+}
+@media screen and (min-width: 375px){
+    #teamMem{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    #brandImg{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+}
+@media screen and (min-width: 768px){
+    #teamMem{
+        display: flex;
+        flex-direction:row ;
+        justify-content: space-around;
+        
+        
+    }
+    #brandImg{
+        display: flex;
+        flex-wrap:wrap;
+        align-content: center;
+        img{
+            
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}

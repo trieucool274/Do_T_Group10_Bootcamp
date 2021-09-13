@@ -1,0 +1,14 @@
+#portfolioMain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #373234;
+}
+
+@media screen and (min-width: 375px){
+    #portfolioImg{
+        display: flex;
+        flex-wrap: wrap ;
+
+    }
+}

@@ -1,0 +1,48 @@
+#contactMain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #c8d7d2;
+    div{
+        text-align: center;
+        a{
+            text-decoration: none;
+            color: beige;
+            padding: 5px;
+            background-color: #f6b979;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    }
+}
+#message{
+    padding-bottom: 80px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+}
+@media screen and (min-width: 375px){
+    #formCon{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    #chat{
+        padding-top: 2em;
+    }
+}
+@media screen and (min-width: 768px){
+    #formCon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

@@ -49,37 +49,37 @@
     function showElif(){
         let info = document.querySelector("#elifBio").children;
         
-        info[1].textContent = gia.name;
-        info[2].textContent = gia.role;
-        info[3].textContent = gia.bio;
-        console.log(gia);
+        info[1].textContent = elif.name;
+        info[2].textContent = elif.role;
+        info[3].textContent = elif.bio;
+        console.log(elif);
     }
 
     function showBurak(){
         let info = document.querySelector("#burakBio").children;
         
-        info[1].textContent = gia.name;
-        info[2].textContent = gia.role;
-        info[3].textContent = gia.bio;
-        console.log(gia);
+        info[1].textContent = burak.name;
+        info[2].textContent = burak.role;
+        info[3].textContent = burak.bio;
+        console.log(burak);
     }
 
     function showJacob(){
         let info = document.querySelector("#jacobBio").children;
         
-        info[1].textContent = gia.name;
-        info[2].textContent = gia.role;
-        info[3].textContent = gia.bio;
-        console.log(gia);
+        info[1].textContent = jacob.name;
+        info[2].textContent = jacob.role;
+        info[3].textContent = jacob.bio;
+        console.log(jacob);
     }
 
     function showAaron(){
         let info = document.querySelector("#aaronBio").children;
         
-        info[1].textContent = gia.name;
-        info[2].textContent = gia.role;
-        info[3].textContent = gia.bio;
-        console.log(gia);
+        info[1].textContent = aaron.name;
+        info[2].textContent = aaron.role;
+        info[3].textContent = aaron.bio;
+        console.log(aaron);
     }
 
 

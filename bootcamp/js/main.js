@@ -1,5 +1,5 @@
 (() =>{
-
+   
     const giaSelect = document.querySelector("#giaBio");
     const elifSelect = document.querySelector("#elifBio");
     const burakSelect = document.querySelector("#burakBio");
@@ -15,7 +15,7 @@
     //Elifs info below
     let elif ={
         name: "Enter Name",
-        role: "Enter Role",
+        role: "Developer",
         bio: "Enter Bio"
     };
     //Buraks info below

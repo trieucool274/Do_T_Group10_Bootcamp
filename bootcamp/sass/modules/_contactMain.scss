@@ -15,16 +15,24 @@
         }
     }
 }
+#formCon{
+    margin-top: 2em;
+}
 #message{
+    padding-top: 10px;
     padding-bottom: 80px;
 }
 #form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
     input{
         border-radius: 5px;
         margin-bottom: 10px;
+        width: 25em;
+        height: 2em;
+       
     }
 
 }
@@ -33,6 +41,7 @@
         display: flex;
         flex-direction: column;
         align-content: center;
+        
         
     }
     #chat{

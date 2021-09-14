@@ -6,6 +6,12 @@
 }
 #teamBody1{
     padding-bottom: 20px;
+    p{
+        color: #373234;
+    }
+    h2{
+        color: #373234;
+    }
     div{
         text-align: center;
         a{
@@ -15,7 +21,7 @@
             background-color: #373234;
             display: inline-block;
             margin-top: 10px;
-            
+            font-size: 0.8em;
         }  
     }
 }
@@ -36,8 +42,43 @@
 .teamMember{
     padding-left: 10px;
 }
+.bioName{
+    font-size: 18px;
+    //Insert HEADLINE Font Family here
+    color: black;
+    text-align: center;
+}
 
+.bioRole{
+    font-size: 16px;
+//Insert HEADLINE Font Family here
+    color:black;
+    text-align: center;
+}
 
+.bioDesc{
+    font-size: 14px;
+    //Insert BODY Font Family here
+    color:black;
+    text-align: center;
+     //Width can be whatever looks good
+    width: 115px;
+}
+/*#gia{
+    background-color: #c8d7d2;
+}
+#elif{
+    background-color: #f6b979;
+}
+#burak{
+    background-color: #d84338;
+}
+#jacob{
+    background-color: #f2ece3;
+}
+#aaron{
+    background-color: #373234;
+}*/
 @media screen and (min-width: 375px){
     #teamMem{
         display: flex;

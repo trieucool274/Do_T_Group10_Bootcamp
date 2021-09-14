@@ -8,7 +8,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2em;
+    
+    background-color: white;
+    width: 100%;
+    h2{
+        color: #373234;
+        font-weight: bold;
+    }
 }
 #promoImg1{
     display: flex;
@@ -29,13 +35,16 @@
         }  
     }
 }
+
 .serImg1{
-    padding-right: 30px;
+    padding: 0 1em;
     div{
         background-color:#f6b979;
         width: 230px;
         padding: 5px;
-        
+        h4{
+            font-size: 1em;
+        }
     } 
 }
 #serviceIcon{
@@ -43,7 +52,10 @@
     
 }
 #promoCon2{
-    margin: 0 2em 2em 4em;
+    margin: 2em;
+    p{
+        margin: 5px;
+    }
 }
 @media screen and (min-width: 375px){
     #serviceImg{
@@ -68,6 +80,10 @@
    img{
     width: 60px;
     height: 60px;
+   }
+   h4{
+       color: #373234;
+       font-size: 1.2em;
    }
 }
 .dots{

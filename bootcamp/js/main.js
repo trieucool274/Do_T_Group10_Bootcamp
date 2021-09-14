@@ -6,19 +6,19 @@
     const jacobSelect = document.querySelector("#jacobBio");
     const aaronSelect = document.querySelector("#aaronBio");
 
-    //Gias info below
+    //Gia Enter Info Here
     let gia ={
         name: "Enter Name",
         role: "Enter Role",
         bio: "Enter Bio"
     };
-    //Elifs info below
+    //Elif Enter Info Here
     let elif ={
         name: "Enter Name",
         role: "Developer",
         bio: "Enter Bio"
     };
-    //Buraks info below
+    //Burak Enter Info Here
     let burak ={
         name: "Enter Name",
         role: "Enter Role",
@@ -30,7 +30,7 @@
         role: "UX/Development",
         bio: "Enter Bio"
     };
-    //Aarons info below
+    //Aaron Enter Info here
     let aaron ={
         name: "Enter Name",
         role: "Enter Role",

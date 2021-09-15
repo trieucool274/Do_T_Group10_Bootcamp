@@ -1,10 +1,14 @@
 (() =>{
    
+    //Bio Const
     const giaSelect = document.querySelector("#giaBio");
     const elifSelect = document.querySelector("#elifBio");
     const burakSelect = document.querySelector("#burakBio");
     const jacobSelect = document.querySelector("#jacobBio");
     const aaronSelect = document.querySelector("#aaronBio");
+
+    //Step by Step Const
+    const introS1 = document.querySelector("#lightBulb_s1");
 
     //Gia Enter Info Here
     let gia ={
@@ -82,14 +86,21 @@
         console.log(aaron);
     }
 
+    function stepOne(){
+	    document.getElementById("lightBulb_s1").src="images/homepage/Bult_icon_gs.png";
+    }
 
 
 
+    //Event Listeners for Bio
    giaSelect.addEventListener('click', showGia);
    elifSelect.addEventListener('click', showElif);
    burakSelect.addEventListener('click', showBurak);
    jacobSelect.addEventListener('click', showJacob);
    aaronSelect.addEventListener('click', showAaron);
+
+   //Event Listeners for Intro Steps
+   introS1.addEventListener('click', stepOne);
 
 
 })();

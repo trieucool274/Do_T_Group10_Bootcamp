@@ -1,143 +1,196 @@
-.mainHeader { 
-    
-    width: 100%; 
-    margin: 0 auto; 
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-    align-items: center; 
-    height: auto; 
-    .menuContainer{
-        position: relative;
-     
-        button{
-            display: block;
-            // background: url(../images/burger.png) no-repeat center ;
-            border: 0px;
-            width: 65px;
-            height: 50px;
-        }
-        button.expanded{
-            -webkit-transform: rotate(90deg); 
-            -ms-transform: rotate(90deg); 
-            transform: rotate(90deg);
-        }
+.mainHeader {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  .menuContainer {
+    position: relative;
+
+    button {
+      display: block;
+      // background: url(../images/burger.png) no-repeat center ;
+      border: 0px;
+      width: 65px;
+      height: 50px;
     }
+    button.expanded {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  }
 }
 .logoCon {
-    padding: 0;
-    height: 125px;
-    margin-top: 1em;
-   margin-bottom: 1em;
+  padding: 0;
+  height: 125px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-.logoCon{
-    img{
-        height: 100%;
-        width: auto;
+.logoCon {
+  img {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+  }
+}
+
+.headerCon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1em;
+}
+
+.socialCon {
+  li {
+    display: inline;
+    padding-right: 10px;
+    img {
+      cursor: pointer;
     }
+  }
 }
 
-.headerCon{
-    display: flex;
-    flex-direction: column;
-    margin-right: 1em;
+.menuContainer {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.socialCon{
-    li{
-        display: inline;
-        padding-right: 10px;   
-    }  
+#menubutton {
+  align-self: right;
+  margin-top: 1em;
+  background: #f2ece3;
 }
 
-.navCon { 
-    display: none; 
-    position: absolute; 
-    top: 70px; 
-    z-index: 9; 
-    padding: 15px; 
-    width: 90%; 
-    text-align: center; 
-    li{
-        margin-bottom: 20px;
-        padding-left: 20px;
-        a{
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: bold;
-        }
+.navCon {
+  display: none;
+  position: absolute;
+  top: 40px;
+  z-index: 9;
+  padding: 15px;
+  width: 90%;
+  text-align: center;
+  margin-top: 1em;
+  animation: fadeIn 0.7s;
+  -webkit-animation: fadeIn 0.7s;
+  -moz-animation: fadeIn 0.7s;
+  -o-animation: fadeIn 0.7s;
+  -ms-animation: fadeIn 0.7s;
+  li {
+    margin-bottom: 20px;
+    margin: 0 5px;
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      transition: all 0.5s linear;
     }
+    a:hover {
+      color: #d84338;
+      font-size: 24px;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .navCon.slideToggle {
-    display: block !important;
+  display: block !important;
 }
-.burgerCon{
-    background: #dba868;
-    padding: 2em 0;
-    a{
-        color: #373234;
+.burgerCon {
+  background: #dba868;
+  padding: 2em 0;
+  width: 20vh;
+
+  margin-right: 2em;
+  li {
+    margin-top: 1em;
+    a {
+      color: #373234;
+      margin-top: 2em;
     }
-    
+  }
 }
-@media screen and (min-width: 375px){
-
+@media screen and (min-width: 375px) {
 }
 
-@media screen and (min-width: 768px){
-    .mainHeader{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        .menuContainer{
-        button{
-            display: none;
+@media screen and (min-width: 768px) {
+  .mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .menuContainer {
+      button {
+        display: none;
+      }
+    }
+  }
+
+  .headerCon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .navCon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: unset;
+    right: unset;
+    background: none;
+    box-shadow: none;
+    z-index: 1;
+    padding: 0;
+    text-align: unset;
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      li {
+        float: left;
+        width: 20%;
+        position: relative;
+        text-align: center;
+        margin-bottom: unset;
+        a {
+          padding: 5px 0;
+          font-size: 1.5em;
+          text-decoration: none;
+          display: block;
+          width: 100%;
+          text-align: center;
+          padding-right: 1em;
+          a:hover {
+            color: #dba868;
+          }
         }
+      }
     }
+  }
+  .burgerCon {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    a {
+      color: #373234;
     }
-
-    .headerCon{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .navCon { 
-        width: 100%;  display: flex; 
-        flex-direction: column; 
-        position: relative; 
-        top: unset; 
-        right: unset; 
-        background: none; 
-        box-shadow: none; 
-        z-index: 1; 
-        padding: 0; 
-        text-align: unset; 
-        ul { list-style-type: none; padding: 0; margin: 0; 
-            width: 100%; height: 100%; display: flex; align-items: center; 
-            justify-content: space-around;
-            li { float: left; width: 20%; position: relative; 
-                text-align: center; 
-                margin-bottom: unset;
-                a { padding: 5px 0;  font-size: 1.5em; text-decoration: none; 
-                    display: block; width: 100%; text-align: center; padding-right: 1em;
-                    a:hover { color: #dba868; 
-                    }
-                }
-            }
-        }
-    }
-    .burgerCon{
-        background: transparent;
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        a{
-            color: #373234;
-        }
-        
-    }
+  }
 }
-
-

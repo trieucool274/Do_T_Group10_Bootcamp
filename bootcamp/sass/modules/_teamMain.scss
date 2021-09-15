@@ -1,68 +1,70 @@
-#teamMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   // background-color:#f6b979 ;
+#teamMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color:#f6b979 ;
 }
-#teamBody1{
-    padding-bottom: 20px;
-    p{
-        color: #373234;
-    }
-    h2{
-        color: #373234;
-    }
-    div{
-        text-align: center;
-        a{
-            text-decoration: none;
-            color: beige;
-            padding: 5px;
-            background-color: #373234;
-            display: inline-block;
-            margin-top: 10px;
-            font-size: 0.8em;
-        }  
-    }
-}
-#teamBody2{
-    padding-bottom: 20px;
-    background-color: white;
-    width: 100%;
-    h2{
-        color: #373234;
-    }
-    
-}
-#teamBody3{
-    padding-bottom: 20px;
-   background-color: #373234;
-   width: 100%;
-}
-.teamMember{
-    padding-left: 10px;
-}
-.bioName{
-    font-size: 18px;
-    //Insert HEADLINE Font Family here
-    color: black;
+#teamBody1 {
+  padding-bottom: 20px;
+  p {
+    color: #373234;
+  }
+  h2 {
+    color: #373234;
+  }
+  div {
     text-align: center;
+    a {
+      text-decoration: none;
+      color: beige;
+      padding: 5px;
+      background-color: #373234;
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.8em;
+    }
+  }
+}
+#teamBody2 {
+  padding-bottom: 20px;
+  background-color: white;
+  width: 100%;
+  h2 {
+    color: #373234;
+  }
+}
+#teamBody3 {
+  padding-bottom: 20px;
+  background-color: #373234;
+  width: 100%;
+}
+.teamMember {
+  padding-left: 10px;
+}
+.bioName {
+  font-size: 18px;
+  //Insert HEADLINE Font Family here
+  color: black;
+  text-align: center;
 }
 
-.bioRole{
-    font-size: 16px;
-//Insert HEADLINE Font Family here
-    color:black;
-    text-align: center;
+.bioRole {
+  font-size: 16px;
+  //Insert HEADLINE Font Family here
+  color: black;
+  text-align: center;
+  text-align: left;
 }
 
-.bioDesc{
-    font-size: 14px;
-    //Insert BODY Font Family here
-    color:black;
-    text-align: center;
-     //Width can be whatever looks good
-    width: 115px;
+.bioDesc {
+  font-size: 1em;
+  //Insert BODY Font Family here
+  color: black;
+  text-align: center;
+  //Width can be whatever looks good
+  width: 115px;
+  text-align: left;
+  line-height: 1.2em;
 }
 /*#gia{
     background-color: #c8d7d2;
@@ -79,35 +81,31 @@
 #aaron{
     background-color: #373234;
 }*/
-@media screen and (min-width: 375px){
-    #teamMem{
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-    }
-    #brandImg{
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-    }
-    
+@media screen and (min-width: 375px) {
+  #teamMem {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  #brandImg {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
 }
-@media screen and (min-width: 768px){
-    #teamMem{
-        display: flex;
-        flex-direction:row ;
-        justify-content: space-around;
-        
-        
+@media screen and (min-width: 768px) {
+  #teamMem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #brandImg {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    img {
+      padding-left: 10px;
+      padding-right: 10px;
     }
-    #brandImg{
-        display: flex;
-        flex-wrap:wrap;
-        align-content: center;
-        img{
-            
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-    }
+  }
 }

@@ -12,9 +12,9 @@
 
     //Gia Enter Info Here
     let gia ={
-        name: "Enter Name",
-        role: "Enter Role",
-        bio: "Enter Bio"
+        name: "Gia Linh Nguyen",
+        role: "UI/Designer",
+        bio: "Gia is an Interactive Media Design student from Fanshawe. Programming is not her thing but visual works is what she good at."
     };
     //Elif Enter Info Here
     let elif ={

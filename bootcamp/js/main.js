@@ -28,7 +28,7 @@
     let jacob ={
         name: "Jacob Smith",
         role: "UX/Development",
-        bio: "Enter Bio"
+        bio: "Jacob is a Designer/Developer and lover of all things tech. With 3 years of Freelance experience He is an expert in client satisfaction."
     };
     //Aaron Enter Info here
     let aaron ={

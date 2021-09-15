@@ -51,10 +51,15 @@
 
 		<main id="homeMain">
 			<section id="video">
-				<video width="100%" controls autoplay>
-					<source src="images/homepage/V2_lowRez2.mp4" type="video/mp4">
-				</video>
+				<video src="images/homepage/V2_lowRez2.mp4" id="mainVideo" autoplay></video>
 			</section>
+			<div id="volume_controls">
+				<a onclick="playPause()" class="controlCont"><img src="images/play.png" alt="Play/Pause"></a>
+				<a onclick="stopVideo()" class="controlCont"><img src="images/stop.png" alt="Stop"></a>
+				<a onclick="decreaseVolume()" class="controlCont"><img src="images/vDown.png" alt="Volume Down"></a>
+				<a onclick="increaseVolume()" class="controlCont"><img src="images/vUp.png" alt="Volume Up"></a>
+				<a onclick="muteVolume()" class="controlCont"><img src="images/mute.png" alt="Mute"></a>
+			  </div>
 			<section id="promoCon1">
 				<h2>SERVICES</h2>
 					<div id="serviceImg">
@@ -216,5 +221,6 @@
 	
 	<script src="js/main.js" type="module" defer></script>
 	<script src="js/burger.js"></script>
+	<script src="js/player.js"></script>
 </body>
 </html>

@@ -40,6 +40,9 @@
 }
 .teamMember {
   padding-left: 10px;
+  img {
+    cursor: pointer;
+  }
 }
 .bioName {
   font-size: 18px;
@@ -52,7 +55,6 @@
   font-size: 16px;
   //Insert HEADLINE Font Family here
   color: black;
-  text-align: center;
   text-align: left;
 }
 
@@ -60,11 +62,33 @@
   font-size: 1em;
   //Insert BODY Font Family here
   color: black;
-  text-align: center;
+  text-align: left;
   //Width can be whatever looks good
-  width: 115px;
+  width: 155px;
   text-align: left;
   line-height: 1.2em;
+  animation: floating 3s infinite ease-in-out, fadeIn 5s ease-in;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 3px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*#gia{
     background-color: #c8d7d2;

@@ -24,9 +24,9 @@
     };
     //Burak Enter Info Here
     let burak ={
-        name: "Enter Name",
-        role: "Enter Role",
-        bio: "Enter Bio"
+        name: "Burak Turkmen",
+        role: "Motion Design/UX",
+        bio: "Burak is currently studying Interactive Media Design at Fanshawe College. He will be Canada's 4th best motion designer in 2 years. He used to be a lawyer."
     };
 
     let jacob ={

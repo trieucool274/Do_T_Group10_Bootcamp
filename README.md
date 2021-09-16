@@ -5,10 +5,10 @@
 # Do_T_Group10_Bootcamp
 
 ## Project description
-A group of 4 or 5 student are responsible for designing a professional agency site (mobile, tablet or desktop) with an original logo & tagline. 
+A group of 4 or 5 student are responsible for designing a professional agency site (mobile, tablet and desktop) with an original logo & tagline. 
 The group will also design and animate a video to promote the new startup advertising agency.
 
-## Team member
+## Team members
 
 1. Nguyen Gia Linh 
 2. Trieu Do hoang (Aaron)
@@ -22,12 +22,6 @@ Javascript
 Adobe Creative
 Cinema 4D
 Discord
-## Contributors
-N/A
-
-## Project roadmap link
-
-N/A
 
 ## Credits
 

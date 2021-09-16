@@ -1,3 +1,7 @@
+![Logo](https://github.com/trieucool274/Do_T_Group10_Bootcamp/blob/main/bootcamp/images/videoLogo.png)
+
+
+
 # Do_T_Group10_Bootcamp
 
 ## Project description

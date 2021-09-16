@@ -33,9 +33,9 @@
     };
     //Aaron Enter Info here
     let aaron ={
-        name: "Enter Name",
-        role: "Enter Role",
-        bio: "Enter Bio"
+        name: "Aaron Do",
+        role: "Motion Design, Developer",
+        bio: "Aaron is currently studying Interactive Media Design at Fanshawe College, enjoy all creative work, brainstorm and build up ideas. Expect to reach to people as well as clients as a professional designer."
     };
 
     function showGia(){

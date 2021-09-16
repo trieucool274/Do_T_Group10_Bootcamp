@@ -17,7 +17,7 @@
     let elif ={
         name: "Elif Sarikaya",
         role: "Developer",
-        bio: "Elif Sarikaya is a Fanshawe College student at Interactive Media Design program. She studied Mathematics. That's why she is interested in especially development part of this program. She wants to focus Js in the future."
+        bio: "Elif is a Fanshawe College student at Interactive Media Design. She studied Mathematics. That's why she is interested in especially development part of this program, wants to focus Js in the future."
     };
     //Burak Enter Info Here
     let burak ={

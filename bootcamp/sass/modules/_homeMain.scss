@@ -27,10 +27,16 @@
     a {
       text-decoration: none;
       color: beige;
-      padding: 5px;
+      padding: 8px 15px;
       display: inline-block;
       background-color: #f6b979;
       margin-top: 10px;
+      transition: all 0.3s linear;
+    }
+    a:hover {
+      background-color: #d84338;
+      letter-spacing: 3px;
+      border-radius: 3px;
     }
   }
 }
@@ -55,11 +61,13 @@
     margin: 5px;
   }
 }
+
 @media screen and (min-width: 375px) {
   #serviceImg {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 3em;
+    justify-content: center;
     // buraya tekrar bak???????
   }
   #serviceIcon {
